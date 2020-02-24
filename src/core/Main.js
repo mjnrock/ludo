@@ -4,8 +4,7 @@ export default class Main {
     constructor() {
         this.Game = {
             Loop: new Core.Game.Loop(12),
-            Managers: {},
-            Enum: Core.Enum
+            Managers: {}
         };
 
         this.Game.Managers = {
