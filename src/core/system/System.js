@@ -1,7 +1,7 @@
 import Lux from "@lespantsfancy/lux";
 
-import Entity from "../entity/Entity";
-import Component from "../../component/Component";
+import Entity from "./../entity/Entity";
+import Component from "./../component/Component";
 
 export default class System extends Lux.Node.Struct {
     constructor(paco, type, { state = {} } = {}) {

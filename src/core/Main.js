@@ -1,14 +1,14 @@
-import Paco from "./package";
+import Core from "./package";
 
 export default class Main {
     constructor() {
         this.Game = {
-            Loop: new Paco.Game.Loop(12),
-            Managers: {}
+            Loop: new Core.Game.Loop(12),
+            Managers: {},
         };
 
         this.Game.Managers = {
-            Entity: new Paco.Game.EntityManager(this)
+            Entity: new Core.Game.EntityManager(this)
         };
 
         this.Game.Loop.setHandler("tick", this.Tick.bind(this));
