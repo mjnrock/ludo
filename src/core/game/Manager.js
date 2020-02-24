@@ -1,6 +1,6 @@
 export default class Manager {
-    constructor(paco) {
-        this.Paco = paco;
+    constructor(game) {
+        this.GameRef = game;
         this.Registry = {};
     }
 

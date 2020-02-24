@@ -4,11 +4,11 @@ import Entity from "./../entity/Entity";
 import Component from "./../component/Component";
 
 export default class System extends Lux.Node.Struct {
-    constructor(paco, type, { state = {} } = {}) {
+    constructor(game, type, { state = {} } = {}) {
         super({
             ...state,
 
-            Paco: paco,
+            GameRef: game,
             Type: type
         });
     }

@@ -5,6 +5,7 @@ export default class Main {
         this.Game = {
             Loop: new Core.Game.Loop(12),
             Managers: {},
+            Enum: Core.Enum
         };
 
         this.Game.Managers = {

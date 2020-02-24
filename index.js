@@ -14,4 +14,4 @@ Object.entries(BoardGame).forEach(([ K, V ]) => {
 
 let main = new Core.Main();
 
-console.log(main.Game);
+console.log(main.Game.Enum.Entity);
